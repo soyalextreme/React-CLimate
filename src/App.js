@@ -19,7 +19,7 @@ function App() {
     // funcion de peticion
     const fetchAPI = async () => {
       const { city, country } = search;
-      const apiKey = "fe55435af411ba25d93daaf66b0bef27";
+      const apiKey = "APIHERE";
       const URI = `
       https://api.openweathermap.org/data/2.5/weather?q=${city},${country}&appid=${apiKey}`;
       const res = await fetch(URI);
